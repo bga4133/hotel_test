@@ -7,9 +7,9 @@ export const AppRouter = () => {
   return (
     <Router>
       <div>
-        <SignUp />
         <Switch>
-          <Route exact path="/formHotel" component={FormHotel} />
+          <Route exact path="/" component={SignUp} />
+          <Route path="/formHotel" component={FormHotel} />
         </Switch>
       </div>
     </Router>
