@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const FormHotel = props => {
-  const [inputValue, setInputValue] = React.useState("");
+  const [inputValue, setInputValue] = React.useState("hola");
   const onChangeHandler = event => {
     setInputValue("Hola");
   };
@@ -15,21 +15,21 @@ export const FormHotel = props => {
           type="text"
           name="name"
           onClick={onChangeHandler}
-          value={inputValue}
+          defaultValue={inputValue}
           required
         />
         <input
           type="text"
           name="name"
           onClick={onChangeHandler}
-          value={inputValue}
+          defaultValue={inputValue}
           required
         />
         <input
           type="text"
           name="name"
           onClick={onChangeHandler}
-          value={inputValue}
+          defaultValue={inputValue}
           required
         />
 

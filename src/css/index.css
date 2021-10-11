@@ -1,13 +1,42 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp-container {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.rowSignUp {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons-container {
+  width: 100%;
+  height: 25vh;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.buttonSignUp {
+  width: 80%;
+  height: 10vh;
+  background: none;
+  border-radius: 20px;
+  color: pink;
+  text-decoration: none;
+  border: 2px solid pink;
 }
