@@ -1,105 +1,119 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.signUp-container {
-  background-color: #fffafa;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Poppins", sans-serif;
-}
-.rowSignUp {
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
-.buttons-container {
-  width: 100%;
-  height: 25vh;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.buttonSignUp {
-  width: 80%;
-  height: 10vh;
-  background: none;
-  border-radius: 20px;
-  color: pink;
-  text-decoration: none;
-  border: 2px solid pink;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(146, 133, 133, 0.1);
-}
-
-.header {
-  width: 100%;
-  height: 7vh;
-  background: #fffafa;
-  border-bottom: 2px solid white;
-}
-.header-container {
-  width: 85%;
-  justify-content: space-between;
-  text-decoration: none;
-  font-size: 20px;
-  color: pink;
-  text-decoration: none;
-}
-.formContainer {
-  background: #fffafa;
-  font-family: "Poppins", sans-serif;
-  width: 100%;
-  height: 93vh;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.containerInputs-form {
-  width: 90%;
-  height: 55vh;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.labelcontainer {
-  width: 85%;
-}
-.labelcontainer label {
-  font-size: 14px;
-}
-.containerInputs-form input {
-  font-family: "Poppins", sans-serif;
-  background: none;
-  border: 0px;
-  outline: none;
-  height: 7vh;
-  padding-left: 10px;
-  border-bottom: 2px solid black;
-  width: 80%;
-}
-.submit-container {
-  width: 100%;
-  height: 20vh;
-}
-.button-submit {
-  font-family: "Poppins", sans-serif;
-  width: 80%;
-  background: pink;
-  border: 0px;
-  height: 7vh;
-  border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(146, 133, 133, 0.1);
-  font-size: 16px;
-}
-.back {
-  text-decoration: none;
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signUp-container {
+    background-color: #fffafa;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+  .rowSignUp {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .buttons-container {
+    width: 100%;
+    height: 25vh;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .buttonSignUp {
+    width: 80%;
+    height: 10vh;
+    background: none;
+    border-radius: 20px;
+    color: blue;
+    text-decoration: none;
+    border: 1px solid blue;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+      0 4px 4px rgba(146, 133, 133, 0.1);
+  }
+  .registeredButton {
+    color: blue;
+  }
+  .header {
+    width: 100%;
+    height: 7vh;
+    background: #fffafa;
+    border-bottom: 2px solid white;
+  }
+  .header-container {
+    width: 85%;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    color: pink;
+    text-decoration: none;
+  }
+  .formContainer {
+    background: #fffafa;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 93vh;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .containerInputs-form {
+    width: 90%;
+    height: 55vh;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .labelcontainer {
+    width: 85%;
+  }
+  .labelcontainer label {
+    font-size: 14px;
+  }
+  .containerInputs-form input {
+    font-family: "Poppins", sans-serif;
+    background: none;
+    border: 0px;
+    outline: none;
+    height: 7vh;
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    width: 80%;
+  }
+  .submit-container {
+    width: 100%;
+    height: 20vh;
+  }
+  .button-submit {
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+    background: blue;
+    border: 0px;
+    height: 7vh;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+      0 4px 4px rgba(146, 133, 133, 0.1);
+    font-size: 16px;
+  }
+  .back {
+    text-decoration: none;
+  }
+  .modal_container {
+    background: red;
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    z-index: 1;
+  }
 }
